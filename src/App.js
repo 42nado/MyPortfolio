@@ -1,34 +1,48 @@
-import logo from './logo.svg';
-import './App.css';
+import logo from "./logo.svg";
+import "./App.css";
+import Reactlogo from "./f1.svg";
+import moon from "./moon-solid.svg";
 
 function App() {
   return (
     <div className="App">
-      <nav class="navbar navbar-expand-lg navbar-light bg-light">
-        <div class="container-fluid">
-          <a class="navbar-brand" href="#">Daryll Anthony Fortunado</a>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse" id="navbarNav">
-            <ul class="navbar-nav ml-auto">
-              <li class="nav-item">
-                <a class="nav-link " aria-current="page" href="#">Home</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">About</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">Projects</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link " href="#">Contact</a>
-              </li>
-            </ul>
-          </div>
+      {/* ========================= HEADER ===========================*/}
+      <header className="App-header">
+        <nav>
+          <img src={Reactlogo} width="50" height="50" alt="" />
+          <ul>
+            <li>
+              <a href="#">Home</a>
+            </li>
+            <li>
+              <a href="#">About</a>
+            </li>
+            <li>
+              <a href="#">Project</a>
+            </li>
+            <li>
+              <a href="#">Contact</a>
+            </li>
+          </ul>
+          <img src={moon} width="30px" height="30px" alt="" />
+        </nav>
+      </header>
+      <div className="container">
+        <div className="row">
+          <h2>-Im a</h2>
+          <h1>Daryll Anthony Fortunado</h1>
         </div>
-      </nav>
 
+        {/* ========================= HOME ===========================*/}
+        <div className="home"></div>
+        {/* ========================= ABOUT ===========================*/}
+        <div className="about-section"></div>
+        {/* ========================= PROJECT ===========================*/}
+        <div className="project-section"></div>
+        {/* ========================= CONTACT ===========================*/}
+        <div className="contact-section"></div>
+        {/* ========================= FOOTER ===========================*/}
+      </div>
     </div>
   );
 }
