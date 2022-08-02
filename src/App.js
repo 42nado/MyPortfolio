@@ -2,6 +2,7 @@ import logo from "./logo.svg";
 import "./App.css";
 import Reactlogo from "./f1.svg";
 import moon from "./moon-solid.svg";
+import picweb from "./undraw_web_developer.svg";
 
 function App() {
   return (
@@ -28,15 +29,35 @@ function App() {
         </nav>
       </header>
       <div className="container">
-        <div className="row">
-          <h2>-Im a</h2>
-          <h1>Daryll Anthony Fortunado</h1>
-        </div>
-
         {/* ========================= HOME ===========================*/}
-        <div className="home"></div>
+        <div className="home">
+          <div className="row">
+            <h1>I'm Daryll Anthony Fortunado</h1>
+            <h3>Web Developer</h3>
+            <p>This is my official portfolio website to showcase all my work</p>
+            <div className="socials">
+              <a href="#">
+                <i class="bi bi-github"></i>
+              </a>
+              <a href="#">
+                <i class="bi bi-linkedin"></i>
+              </a>
+              <a href="#">
+                <i class="bi bi-envelope-fill"></i>
+              </a>
+            </div>
+            <button className="download-cv">Download CV</button>
+          </div>
+          <div class="images">
+            <img src={picweb} className="imgs" />
+          </div>
+        </div>
         {/* ========================= ABOUT ===========================*/}
-        <div className="about-section"></div>
+        <div className="about-section">
+          <div className="about-row">
+            <h3>About</h3>
+          </div>
+        </div>
         {/* ========================= PROJECT ===========================*/}
         <div className="project-section"></div>
         {/* ========================= CONTACT ===========================*/}
