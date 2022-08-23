@@ -85,3 +85,13 @@ nav ul li a {
     text-align: center;
     margin-top: 250px;
 }
+
+.imgs {
+    display: inline-block;
+    width: 100px;
+    height: auto;
+}
+
+.logo {
+    margin-top: 0;
+}
