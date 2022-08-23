@@ -1,6 +1,6 @@
 import logo from "./logo.svg";
 import "./App.css";
-import Reactlogo from "./f1.svg";
+import Reactlogo from "./fortunado.svg";
 import moon from "./moon-solid.svg";
 import picweb from "./undraw_web_developer.svg";
 
@@ -10,7 +10,7 @@ function App() {
       {/* ========================= HEADER ===========================*/}
       <header className="App-header">
         <nav>
-          <img src={Reactlogo} width="50" height="50" alt="" />
+          <img src={Reactlogo}  alt="" className="logo" />
           <ul>
             <li>
               <a href="#">Home</a>
@@ -47,9 +47,9 @@ function App() {
               </a>
             </div>
             <button className="download-cv">Download CV</button>
-          </div>
-          <div class="images">
-            <img src={picweb} className="imgs" />
+            <div class="images">
+              <img src={picweb} className="imgs" />
+            </div>
           </div>
         </div>
         {/* ========================= ABOUT ===========================*/}
