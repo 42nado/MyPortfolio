@@ -10,7 +10,7 @@ function App() {
       {/* ========================= HEADER ===========================*/}
       <header className="App-header">
         <nav>
-          <img src={Reactlogo}  alt="" className="logo" />
+          <img src={Reactlogo} alt="" className="logo" />
           <ul>
             <li>
               <a href="#">Home</a>
@@ -31,7 +31,7 @@ function App() {
       <div className="container">
         {/* ========================= HOME ===========================*/}
         <div className="home">
-          <div className="row">
+          <div className="content-left">
             <h1>I'm Daryll Anthony Fortunado</h1>
             <h3>Web Developer</h3>
             <p>This is my official portfolio website to showcase all my work</p>
@@ -47,21 +47,25 @@ function App() {
               </a>
             </div>
             <button className="download-cv">Download CV</button>
-            <div class="images">
-              <img src={picweb} className="imgs" />
-            </div>
+          </div>
+          <div class="images">
+            <img src={picweb} className="imgs" />
           </div>
         </div>
         {/* ========================= ABOUT ===========================*/}
         <div className="about-section">
           <div className="about-row">
-            <h3>About</h3>
+            <h3>ABOUT</h3>
           </div>
         </div>
         {/* ========================= PROJECT ===========================*/}
-        <div className="project-section"></div>
+        <div className="project-section">
+          <h3>PROJECTS</h3>
+        </div>
         {/* ========================= CONTACT ===========================*/}
-        <div className="contact-section"></div>
+        <div className="contact-section">
+          <h3>CONTACT</h3>
+        </div>
         {/* ========================= FOOTER ===========================*/}
       </div>
     </div>

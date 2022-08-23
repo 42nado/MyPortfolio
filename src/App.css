@@ -88,10 +88,18 @@ nav ul li a {
 
 .imgs {
     display: inline-block;
-    width: 100px;
+    width: 400px;
     height: auto;
 }
 
 .logo {
     margin-top: 0;
+}
+
+.images {
+    float: right;
+}
+
+.content-left {
+    width: 50%;
 }
