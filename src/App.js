@@ -54,7 +54,7 @@ function App() {
         </div>
         {/* ========================= ABOUT ===========================*/}
         <div className="about-section">
-          <div className="about-row">
+          <div className="about">
             <h3>ABOUT</h3>
           </div>
         </div>
