@@ -6,10 +6,13 @@
 }
 
 :root {
-    --primary-color: #02d9ff;
+    --primary-color: #edf2fc;
     --secondary-color: #0e0d0d;
 }
 
+.App{
+    background-color: var(--primary-color);
+}
 .bi {
     text-decoration: none;
     font-size: 2em;
@@ -87,19 +90,92 @@ nav ul li a {
 }
 
 .imgs {
-    display: inline-block;
-    width: 400px;
-    height: auto;
+    position: absolute;
+    width: 200px;
+    height: 100px;
+    right: 0;
+    top: 50px;
 }
 
 .logo {
     margin-top: 0;
+    font-weight: bold;
 }
 
-.images {
-    float: right;
+.about-section {
+    margin-top: 100px;
+    margin-bottom: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+}
+.about h3{
+    font-weight: bold;
+
+}
+.project-section {
+    margin-top: 100px;
+    margin-bottom: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+}
+.contact-section {
+    margin-top: 100px;
+    margin-bottom: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+}
+.tech-section {
+    margin-top: 100px;
+    margin-bottom: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
 }
 
-.content-left {
-    width: 50%;
+.content {
+    position: relative;
+    padding-left: 20px;
+}
+.home{
+    position: relative;
+}
+
+#icon {
+
+}
+.about-top {
+    margin-top: 100px;
+    margin-bottom: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.pic-about {
+    width: 300px;
+    height: 500px;
+
+}
+.about .about-top .about-topright-text {
+    width: 40%;
+    margin-left: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-right: 20px;
+    text-align: left;
+    font-size: 20px;
+}
+.about .about-top .about-pic {
+    width: 60%;
+
+
 }
